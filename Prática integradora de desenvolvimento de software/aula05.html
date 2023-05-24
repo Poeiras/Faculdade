@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content 'IE=Edge'>
+    <meta name="viewport" content="width = 640px, initial scale= 1.0">
+    <title>"Aula 05 - Criando formulários"</title>
+    <!--Vínculo com a style sheet-->
+    <link rel="stylesheet" href="aula05.css">
+</head>
+
+<body>
+    <form action="https://pruu.herokuapp.com/dump/test">
+        <fieldset>
+        <input id ="nome"   name = "nome"   type = "text">      <br>
+        <input id ="idade"  name = "idade"  type = "number">    <br>
+        <input id ="senha"  name = "senha"  type = "password">  <br>
+        <input id ="data"   name = "data"   type = "date">      <br>
+        <input id ="email"  name = "email"  type = "email">     <br>
+        <input id ="cor"    name = "cor"    type = "color">     <br>
+        </fieldset>
+
+        <fieldset>
+        <select name="meunome" id="meunome">
+            <option value="Primero Nome">Lucas</option>
+            <option value="Segundo Nome">Barbosa</option>
+            <option selected value="Terceiro Nome">Poeiras</option>
+            <option value="Quarto Nome">Santos</option>
+        </select><br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br>
+        <br><button type = "submit">Enviar</button><br>
+        </fieldset>
+    </form><br>
+
+    <form action="https://pruu.herokuapp.com/dump/test">
+        <label for = "nome">Nome</label>
+        <input type="hidden" name = "nome" value="Lucas">
+        <input name="arquivo" id="arquivo" type="file" mutiple>
+        <br><button type="submit">Enviar</button><br> 
+    </form>
+</body>

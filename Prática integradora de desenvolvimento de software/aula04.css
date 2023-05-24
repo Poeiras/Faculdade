@@ -1,0 +1,11 @@
+table{
+    font-size: 30px;
+    border:2px green solid;
+}
+td{
+    font-size: 25px;
+    border: 1px red dotted;
+}
+abbr{
+    font-variant: all-small-caps;
+}

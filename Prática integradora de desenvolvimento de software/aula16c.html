@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div id="conteudo" class="mensagem">
+            <h2>Meu nome é Lucas</h2>
+        </div>
+        <div name="divconteudo" class="mensagem">
+            <h2>Eu sou foda</h2>
+        </div>
+        <div name="divconteudo" class="mensagem">
+            <h2>Eu sou atleticano</h2>
+        </div>
+        <div class = "mensagem">
+            <h2>Eu sou faço sucesso</h2>
+        </div>
+        <ul id="lista"></ul>
+        <ul class='listadetimes'></ul>
+</body>
+<script>
+    const listaestilo = document.querySelectorAll(".mensagem");
+    for(i = 0; i < listaestilo.length; i++){
+        listaestilo[i].style.backgroundColor = "blue";
+        listaestilo[i].style.color = "white";
+        listaestilo[i].innerText = listaestilo[i].innerText.toUpperCase();
+    }
+    var elemento = document.createElement("div");
+    elemento.innerText = "Criei o elemento do script";
+    elemento.style.backgroundColor = "red";
+    document.body.append(elemento);
+
+    var lista = document.getElementById("lista");
+    var li1 = document.createElement("li");
+    var li2 = document.createElement("li");
+    li1.textContent = "Meu nome é: ";
+    li2.textContent = "Lucas";
+    lista.appendChild(li1);
+    lista.appendChild(li2);
+
+    var times = ['Cam', 'Atlético Mineiro', 'Galo', 'Freguês'];
+    var listadetimes = document.querySelector('ul.listadetimes');
+    for(i = 0; i < times.length; i++){
+        var time = times[i];
+        var listagem = document.createElement('li');
+        listagem.innerText = time;
+        listagem.style.border = '1px solid blue';
+        listadetimes.appendChild(listagem);
+    }
+</script>
+</html>

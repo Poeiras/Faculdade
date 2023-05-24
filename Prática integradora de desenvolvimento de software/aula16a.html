@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula elemento DOM exemplo</title>
+</head>
+<body>
+    <button onclick="confirma()">Clica aqui porra</button>
+</body>
+<script>
+   /* window.alert("Tá doido mano?")
+   window.confirm("Tem certeza?")
+   var nome = window.prompt("Qual seu nome?");
+   var sobrenome = window.prompt("Qual seu sobrenome?");
+   window.alert("Seu nome é: " + nome.toUpperCase() + " " + sobrenome.toUpperCase());
+    var n1 = Number.parseInt(window.prompt("Digite o primeiro número: "));
+    var n2 = Number.parseInt(window.prompt("Digite o segundo  número: "));
+    var soma = n1 + n2;
+    window.alert("Resultado da soma: " + soma);*/
+    function confirma(){
+        let confirmacao = confirm("Você tem certeza?");
+        if(confirmacao){
+            alert("Deu certo");
+        }
+        else{
+            alert("Cancelado")
+        }
+    }
+</script>
+</html>

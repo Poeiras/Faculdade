@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16 exemplo 3</title>
+</head>
+<body>
+    <center>
+    <h1>Usando seletor do DOM
+    <UL>
+        <li>Java</li>
+        <li>Python</li>
+        <li>NodeJS</li>
+    </UL>
+    </h1>
+    </center>
+    <div id = "conteudo" class = "mensagem">
+        <h2>Meu nome é Lucas</h2>
+    </div>
+    <div name = "divconteudo" class = "mensagem">
+        <h2>Eu sou foda</h2>
+    </div><div name="divconteudo" class="mensagem">
+        <h2>Eu sou atleticano</h2>
+    </div>
+</body>
+<script>
+    elemento0 = document.getElementsByTagName("li")[0];
+    elemento1 = document.getElementsByTagName("li")[1];
+    elemento2 = document.getElementsByTagName("li")[2];
+    elemento0.style.color = 'blue';
+    elemento1.style.background = 'red';
+    elemento2.innerText = "GML";
+
+    elementoDiv = document.getElementById("conteudo");
+    elementoDiv.innerHTML = "<p> Coloquei a tag p dentro da div </p>";
+    
+    elementoName = document.getElementsByName("divconteudo")[1];
+    elementoName.style.color = "green";
+
+    elementoClasse = document.getElementsByClassName("mensagem");
+    elementoClasse.style. = 44;
+
+</script>
+</html>
