@@ -1,0 +1,17 @@
+<p>Componente Paizão</p>
+<button type="button" (click)="incrementarStart()">incrementar o Start</button>
+<p></p>
+<button type="button" (click)="incrementarEnd()">incrementar o End</button>
+<p></p>
+<button type="button" (click)="diminuirStart()">diminuir o Start</button>
+<p></p>
+<button type="button" (click)="diminuirEnd()">diminuir o End</button>
+<p></p>
+<button type="button" (click)="resetar()">Reset</button>
+<p></p>
+Número selecionado: {{selecionado}}
+
+
+<app-filho [start] = "start" [end] = "end" 
+(onSelected)="selecionado= $event">
+</app-filho>

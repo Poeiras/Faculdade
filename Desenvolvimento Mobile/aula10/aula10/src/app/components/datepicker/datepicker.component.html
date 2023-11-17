@@ -1,0 +1,12 @@
+<p>Datapicker works!</p>
+<p></p>
+<mat-form-field appearance="fill">
+    <mat-label>Data de aniversário</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for] = "picker">
+        <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+    </mat-datepicker-toggle>
+    <mat-datepicker #picker startView="year"></mat-datepicker>
+</mat-form-field>
+<p></p>
