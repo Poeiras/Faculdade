@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@ionic/cli": "^6.18.0",
+    "cordova-res": "^0.15.4",
+    "native-run": "^2.0.0"
+  }
+}
