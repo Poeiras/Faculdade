@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f1fecb-ee69-4c21-bb41-f6fd3578e7c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aulas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula02a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula03a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula03b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula03c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula05b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula07a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula08a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula11a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula14a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula16a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacao extrema/agoravai/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacao extrema/agoravai/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacao extrema/agoravai/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacao extrema/agoravai/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programacao extrema/agoravai/out/production/cursotodo/aula13a.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programacao extrema/agoravai/out/production/cursotodo/aula13a.class" afterDir="false" />
-    </list>
+    <list default="true" id="03f1fecb-ee69-4c21-bb41-f6fd3578e7c6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,18 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.aula14">
     <configuration name="aula05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula05" />
@@ -136,6 +106,13 @@
         <item itemvalue="Application.aula05" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
